@@ -109,3 +109,4 @@ Here is a list of testcases proposed for automation for the REST endpoints provi
     - Verify 404 response on order not found
     - Verify 400 response for invalid ID supplied
     - Verify response body on successful and unsuccessful operations
+    - Delete a newly added purchase order
