@@ -32,8 +32,15 @@ An easily usable testing framework which can be used to structure the test cases
 **Maven**
 Maven is a open source build tool which standardizes project layout and structure. Dependency management is made easier and user just need to add a dependency to pom.xml for maven to take care of it. Easy to update dependent  libraries as well.
 
+## Testcases covered in the suite
+1. TestIncomeComponent - Add, edit and delete incomes
+2. TestExpensesComponent - Add, edit and delete expenses
+3. TestAccountComponent - Add, edit and delete accounts
+4. TestCategoriesComponent - Edit and delete categories
+5. TestE2EMoneyMgmtFlow - Add income and expenses and verify app is updated accordingly
+6. TestViewHomeOptions - Switch homepage view by day or month
 
-## What to test for 
+## Ideas on what to test for 
 
 **Income component**		
 |Test Case  | Priority  | Test Level |
