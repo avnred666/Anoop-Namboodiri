@@ -7,12 +7,13 @@ public class TestViewHomeOptions extends TestBase{
      * Test viewing of homepage data with different view options such as day/month
      */
     @Test
-    public void viewOptions(){
+    public void viewOptions() throws Exception {
+        setup();
         homePage = new HomePage(driver);
-        homePage.waitForBalanceDisplay();
         homePage.clickLeftViewPanel();
         homePage.selectViewByDay();
         homePage.clickLeftViewPanel();
         homePage.selectViewByMonths();
+        teardown();
     }
 }

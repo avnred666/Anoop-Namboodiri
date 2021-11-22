@@ -64,7 +64,7 @@ public class TestAccountsComponent extends TestBase{
         homePage = new HomePage(driver);
         newAccountPage = new NewAccountPage(driver);
         viewTransactionDetailsPage = new ViewTransactionDetailsPage(driver);
-        homePage.clickPieGraph();
+//        homePage.openSettingsPanel();
 //        homePage.clickBalanceAmount();
         viewTransactionDetailsPage.clickTransactionCategory();
         viewTransactionDetailsPage.clickTransactionAmount();

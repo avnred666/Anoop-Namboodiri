@@ -43,6 +43,8 @@ public class TestExpensesComponent extends TestBase{
         newExpensesPage.clickExpensesNumberButton(5);
         newExpensesPage.clickExpensesNumberButton(0);
         newExpensesPage.clickBackButton();
+//        newExpensesPage.clickBackButton();
+//        homePage.openSettingsPanel();
         homePage.waitForBalanceDisplay();
         Assert.assertEquals(homePage.balanceAmountDisplay.getText(),"Balance -$50.00");
     }
@@ -52,9 +54,9 @@ public class TestExpensesComponent extends TestBase{
      */
     @Test(dependsOnMethods = {"addNewExpense","editExpense"})
     public void deleteExpense(){
-        homePage = new HomePage(driver);
-        newExpensesPage = new NewExpensesPage(driver);
-        viewTransactionDetailsPage = new ViewTransactionDetailsPage(driver);
+//        homePage = new HomePage(driver);
+//        newExpensesPage = new NewExpensesPage(driver);
+//        viewTransactionDetailsPage = new ViewTransactionDetailsPage(driver);
         viewTransactionDetailsPage.clickTransactionCategory();
         viewTransactionDetailsPage.clickTransactionAmount();
         newExpensesPage.clickDeleteBtn();

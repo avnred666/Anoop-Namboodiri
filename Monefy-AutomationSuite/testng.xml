@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="android app test suite">
-    <test name="MonefyTestSuite" preserve-order="true">
+    <test name="Test Income">
         <classes>
             <class name="TestIncomeComponent"/>
+        </classes>
+    </test>
+    <test name="Test Expenses">
+        <classes>
             <class name="TestExpensesComponent"/>
+        </classes>
+    </test>
+    <test name="Test Accounts">
+        <classes>
             <class name="TestAccountsComponent"/>
+        </classes>
+    </test>
+    <test name="Test E2E Flow">
+        <classes>
             <class name="TestE2EMoneyMgmtFlow"/>
+        </classes>
+    </test>
+    <test name="Test Categories">
+        <classes>
             <class name="TestCategoriesComponent"/>
+        </classes>
+    </test>
+    <test name="Test Homepage View">
+        <classes>
             <class name="TestViewHomeOptions"/>
         </classes>
     </test>
