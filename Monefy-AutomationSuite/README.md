@@ -18,8 +18,9 @@ Libraries and Dependencies:
 
 9. Clone the github repository
 10. Ensure all pom.xml dependencies are resolved
-11. Update emulator details in config.properties file
-12. Run test suite from command line using "mvn test" or "mvn clean test" 
+11. Start emulator
+12. Update emulator details in config.properties file
+13. Run test suite from command line using "mvn test" or "mvn clean test" 
 
 ## Automation approach
 **Selenium (Java) and Appium**
